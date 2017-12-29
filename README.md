@@ -14,3 +14,10 @@ LeetCode刷题代码记录
 自己想法：通过读取依次读取字符串来判断最终坐标是否和起始坐标相同
 
 最佳想法：通过判断指令字符串中“U”和“D”数目以及“L”和“R”数目是否相同来判断是否回到原点
+
+### 728 SelfDividingNumbers
+[题目描述](https://leetcode.com/problems/self-dividing-numbers/description/)
+
+ 想法：通过依次求余和整除10得到每一位数字，判断是否为0和能否整除原整数
+ 
+ 收获：for循环在一些情况下能够代替while，使代码更简便
