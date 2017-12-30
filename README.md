@@ -21,3 +21,17 @@ LeetCode刷题代码记录
  想法：通过依次求余和整除10得到每一位数字，判断是否为0和能否整除原整数
  
  收获：for循环在一些情况下能够代替while，使代码更简便
+ 
+ ### 561 Array Partition I
+ [题目描述](https://leetcode.com/problems/array-partition-i/description/)
+ 
+ 想法：将数组进行排序，然后从第一个开始每隔一个进行求和
+ 
+ 收获：
+ Java中对数组进行排序可以使用Arrays.sort()，默认升序排序；
+ Kotlin中sumBy函数：在每个集合元素上应用一个函数，返回所有这个函数返回的结果相加一起的值。
+ 1..num 代表范围\[1,num\]
+ 1..num-1 可以使用1 until num
+                
+                
+            
